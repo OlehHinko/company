@@ -1,0 +1,22 @@
+.efficiency {
+  h3 {
+    color: black;
+  }
+  p {
+    color: #8d8d8d;
+  }
+  &__container {
+    display: flex;
+    &-item {
+      width: 25%;
+      display: flex;
+      .item__description {
+        margin-left: 10px;
+        p {
+          font-family: 'Times New Roman Italic', sans-serif;
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@font-face {
+  font-family:"Times New Roman";
+  src:url("../../fonts/times-new-roman.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:"Times New Roman Bold";
+  src:url("../../fonts/times-new-roman-bold.ttf") format("truetype");
+  font-weight:bold;
+  font-style:bold;
+}
+
+@font-face {
+  font-family:"Times New Roman Italic";
+  src:url("../../fonts/times-new-roman-italic.ttf") format("truetype");
+  font-weight:normal;
+  font-style:italic;
+}
+
+@font-face {
+  font-family:"Tahoma";
+  src:url("../../fonts/9688.ttf") format("truetype");
+  font-weight:bold;
+  font-style:bold;
+}
+
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Times New Roman', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+*[class^="items-"] {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  > li {
+    display: inline-block;
+    a {
+      color: #ffffff;
+    }
+  }
+}
+@media (max-width: 850px) {
+  .container {
+    max-width: 95%!important;
+  }
+}
+
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1{
+  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 25px 0 10px;
+  font-weight: bold;
+  color: #000000;
+}
+
+p {
+  color: #8c8c8c;
+  line-height: 1.2;
+}
+
